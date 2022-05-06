@@ -16,35 +16,101 @@
     </div>
     <form class="mt-2 form-group" id="form1" runat="server">
 
-        <div class="d-flex justify-content-center mb-2">
+        <div class="d-flex justify-content-center mb-3">
             <div class="d-flex justify-content-center">
                 <label class="mr-2">Nome</label>
                 <input id="nome" name="nome" class="form-control" type="text" />
             </div>
         </div>
 
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center mb-3">
             <div class="d-flex justify-content-center">
-                <label class="mr-2">Gênero</label>
-                <input id="genero" name="genero" class="form-control" type="text" />
+                <label class="mr-2">Data de Nascimento</label>
+                <input id="dataNascimento" name="dataNascimento" class="form-control" type="date" />
             </div>
         </div>
 
-        <div class="d-flex justify-content-center mt-2">
+        <div class="d-flex justify-content-center mb-3">
             <div class="d-flex justify-content-center">
-                <label class="mr-2">Etnia</label>
-                <input id="etnia" name="etnia" class="form-control" type="text" />
+                <label class="mr-2">CPF</label>
+                <input id="cpf" name="cpf" class="form-control" type="text" />
             </div>
         </div>
 
-        <div class="d-flex justify-content-center mt-2">
+        <div class="d-flex justify-content-center mb-3">
+            <div class="d-flex justify-content-center">
+                <label class="mr-2">CEP</label>
+                <input id="cep" name="cep" class="form-control" type="text" />
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-3">
+            <div class="d-flex justify-content-center">
+                <label class="w-25">E-mail</label>
+                <input id="email" name="email" class="form-control" type="email" />
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-3">
             <div class="d-flex justify-content-center">
                 <label class="mr-2">Telefone</label>
-                <input id="telefone" name="telefone" class="form-control" type="text" data-mask="00/00/0000" data-mask-reverse="true" />
+                <input id="telefone" name="telefone" class="form-control" type="tel" />
             </div>
         </div>
 
-         <div class="d-flex justify-content-center mt-2">
+        <div class="d-flex justify-content-center mb-3">
+            <div class="d-flex justify-content-center">
+                <label class="mr-2">Gênero</label>
+                <select id="genero" name="genero" class="custom-select">
+                    <option value="heterossexual">Heterossexual</option>
+                    <option value="homossexual">Homossexual</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-3">
+            <div class="d-flex justify-content-center w-25">
+                <label class="mr-2 w-80">É Refugiado</label>
+                <select id="refugiado" name="refugiado" class="custom-select w-50">
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+            </div>
+        </div>
+
+         <div class="d-flex justify-content-center mb-3">
+            <div class="d-flex justify-content-center w-25">
+                <label class="mr-2">Instituição de Ensino Fundamental</label>
+                <input id="instituicaoEnsinoFundamental" name="instituicaoEnsinoFundamental" class="form-control" type="text" />
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-3">
+            <div class="d-flex justify-content-center w-25">
+                <label class="mr-2">Instituição de Ensino Médio</label>
+                <input id="instituicaoEnsinoMedio" name="instituicaoEnsinoMedio" class="form-control" type="text" />
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-3">
+            <div class="d-flex justify-content-center w-25">           
+               <div class="custom-file">
+                    <label class="custom-file-label">Inserir Foto do Diploma do Ensino Fundamental</label>
+                    <input type="file" class="custom-file-input" id="fotoEnsinoFundamental" name="fotoEnsinoFundamental"/>
+               </div>
+            </div>
+        </div>
+
+         <div class="d-flex justify-content-center mb-3">
+            <div class="d-flex justify-content-center w-25">           
+               <div class="custom-file">
+                    <label class="custom-file-label">Inserir Foto do Diploma do Ensino Médio</label>
+                    <input type="file" class="custom-file-input" id="fotoEnsinoMedio" name="fotoEnsinoMedio"/>
+               </div>
+            </div>
+        </div>
+       
+         <div class="d-flex justify-content-center">
             <div class="d-flex justify-content-center">
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
@@ -53,4 +119,5 @@
     </form>
 </body>
 </html>
+
 
