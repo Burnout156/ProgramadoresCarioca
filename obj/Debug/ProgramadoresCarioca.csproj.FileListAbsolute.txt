@@ -1,3 +1,4 @@
+E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\obj\Debug\ProgramadoresCarioca.csproj.CoreCompileInputs.cache
 E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\bin\ProgramadoresCarioca.dll.config
 E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\bin\ProgramadoresCarioca.dll
 E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\bin\ProgramadoresCarioca.pdb
@@ -28,9 +29,9 @@ E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\bin\roslyn\vbc.rsp
 E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\bin\roslyn\VBCSCompiler.exe
 E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\bin\roslyn\VBCSCompiler.exe.config
 E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\bin\MySql.Data.dll
 E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\obj\Debug\ProgramadoresCarioca.csproj.AssemblyReference.cache
-E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\obj\Debug\ProgramadoresCarioca.csproj.CoreCompileInputs.cache
 E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\obj\Debug\ProgramadoresCarioca.csproj.CopyComplete
 E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\obj\Debug\ProgramadoresCarioca.dll
 E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\obj\Debug\ProgramadoresCarioca.pdb
