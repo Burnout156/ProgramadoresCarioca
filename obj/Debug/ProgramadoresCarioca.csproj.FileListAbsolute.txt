@@ -35,3 +35,4 @@ E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\obj\Debug\ProgramadoresCar
 E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\obj\Debug\ProgramadoresCarioca.csproj.CopyComplete
 E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\obj\Debug\ProgramadoresCarioca.dll
 E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\obj\Debug\ProgramadoresCarioca.pdb
+E:\Projetos\ProgramadoresCarioca\ProgramadoresCarioca\bin\AjaxControlToolkit.dll

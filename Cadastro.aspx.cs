@@ -4,9 +4,11 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Text;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Windows;
 
 namespace ProgramadoresCarioca
 {
@@ -28,10 +30,26 @@ namespace ProgramadoresCarioca
             //Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "insert into Pessoa values('"+nome +"', '"+ dataNascimento.Value+"', '1541', 'h', " +
-                                                        "'br@gmail.com', '', '666', 'true', 'fundamental', 'medio', '"+ fotoEnsinoFundamental+"', " +
-                                                        "'"+fotoEnsinoMedio +"')";
-            cmd.ExecuteNonQuery();
+            cmd.CommandText = "insert into Pessoa values('"+nome.Value +"', '"+ dataNascimento.Value+"', '"+ cpf.Value +"', '"+ cep.Value +"', '" + email.Value +
+                                                        "', '"+ telefone.Value + "', '" + genero.Value + "', '" + refugiado.Value + "', '" + instituicaoEnsinoFundamental.Value + "', " +
+                                                        "'" + instituicaoEnsinoMedio.Value + "', '" + fotoEnsinoFundamental.Value + "', " +
+                                                        "'"+fotoEnsinoMedio.Value + "')";
+            try
+            {
+                cmd.ExecuteNonQuery();
+            }
+
+            catch (Exception error)
+            {
+                string mensagem = error.Message;
+                StringBuilder sb = new StringBuilder();
+                sb.Append("alert('");
+                sb.Append(mensagem.Replace("\n", "\\n").Replace("\r", "").Replace("'", "\\'"));
+                sb.Append("');");                          
+                ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "showalert", sb.ToString(), true);
+            }
+
+
         }
     }
 }

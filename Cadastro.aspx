@@ -1,4 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Cadastro.aspx.cs" Inherits="ProgramadoresCarioca.Cadastro" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit"
+TagPrefix="asp" %>
 
 <!DOCTYPE html>
 
@@ -71,8 +73,8 @@
             <div class="d-flex justify-content-center w-25">
                 <label class="mr-2 w-80">É Refugiado</label>
                 <select runat="server" id="refugiado" name="refugiado" class="custom-select w-50">
-                    <option value="sim">Sim</option>
-                    <option value="nao">Não</option>
+                    <option value="true">Sim</option>
+                    <option value="false">Não</option>
                 </select>
             </div>
         </div>
@@ -117,10 +119,9 @@
         
         <div class="d-flex justify-content-center">
             <asp:Button ID="cadastrar" runat="server" OnClick="Cadastrar" Text="Cadastrar" CssClass="btn btn-primary" />
-        </div>
-        
-
+        </div>        
     </form>
+
 </body>
 </html>
 
