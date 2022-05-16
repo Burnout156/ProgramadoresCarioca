@@ -20,21 +20,21 @@ TagPrefix="asp" %>
         <div class="d-flex justify-content-center mb-3">
             <div class="d-flex justify-content-center">
                 <label class="mr-2">Nome</label>
-                <input runat="server" id="nome" name="nome" class="form-control" type="text" />
+                <input runat="server" id="nome" name="nome" class="form-control" type="text" required/>
             </div>
         </div>
 
         <div class="d-flex justify-content-center mb-3">
             <div class="d-flex justify-content-center">
                 <label class="mr-2">Data de Nascimento</label>
-                <input runat="server" id="dataNascimento" name="dataNascimento" class="form-control" type="date" />
+                <input runat="server" id="dataNascimento" name="dataNascimento" class="form-control" type="date" required/>
             </div>
         </div>
 
         <div class="d-flex justify-content-center mb-3">
             <div class="d-flex justify-content-center">
                 <label class="mr-2">CPF</label>
-                <input runat="server" id="cpf" name="cpf" class="form-control" type="text" />
+                <input runat="server" id="cpf" name="cpf" class="form-control" type="text" required/>
             </div>
         </div>
 
@@ -48,21 +48,21 @@ TagPrefix="asp" %>
         <div class="d-flex justify-content-center mb-3">
             <div class="d-flex justify-content-center">
                 <label class="w-25">E-mail</label>
-                <input runat="server" id="email" name="email" class="form-control" type="email" />
+                <input runat="server" id="email" name="email" class="form-control" type="email" required/>
             </div>
         </div>
 
         <div class="d-flex justify-content-center mb-3">
             <div class="d-flex justify-content-center">
                 <label class="mr-2">Telefone</label>
-                <input runat="server" id="telefone" name="telefone" class="form-control" type="tel" />
+                <input runat="server" id="telefone" name="telefone" class="form-control" type="tel" required/>
             </div>
         </div>
 
         <div class="d-flex justify-content-center mb-3">
             <div class="d-flex justify-content-center">
                 <label class="mr-2">Gênero</label>
-                <select runat="server" id="genero" name="genero" class="custom-select">
+                <select runat="server" id="genero" name="genero" class="custom-select" required>
                     <option value="heterossexual">Heterossexual</option>
                     <option value="homossexual">Homossexual</option>
                 </select>
@@ -72,7 +72,7 @@ TagPrefix="asp" %>
         <div class="d-flex justify-content-center mb-3">
             <div class="d-flex justify-content-center w-25">
                 <label class="mr-2 w-80">É Refugiado</label>
-                <select runat="server" id="refugiado" name="refugiado" class="custom-select w-50">
+                <select runat="server" id="refugiado" name="refugiado" class="custom-select w-50" required>
                     <option value="true">Sim</option>
                     <option value="false">Não</option>
                 </select>
@@ -82,14 +82,14 @@ TagPrefix="asp" %>
          <div class="d-flex justify-content-center mb-3">
             <div class="d-flex justify-content-center w-25">
                 <label class="mr-2">Instituição de Ensino Fundamental</label>
-                <input runat="server" id="instituicaoEnsinoFundamental" name="instituicaoEnsinoFundamental" class="form-control" type="text" />
+                <input runat="server" id="instituicaoEnsinoFundamental" name="instituicaoEnsinoFundamental" class="form-control" type="text" required/>
             </div>
         </div>
 
         <div class="d-flex justify-content-center mb-3">
             <div class="d-flex justify-content-center w-25">
                 <label class="mr-2">Instituição de Ensino Médio</label>
-                <input runat="server" id="instituicaoEnsinoMedio" name="instituicaoEnsinoMedio" class="form-control" type="text" />
+                <input runat="server" id="instituicaoEnsinoMedio" name="instituicaoEnsinoMedio" class="form-control" type="text" required/>
             </div>
         </div>
 
@@ -97,7 +97,7 @@ TagPrefix="asp" %>
             <div class="d-flex justify-content-center w-25">           
                <div class="custom-file">
                    <label class="custom-file-label">Inserir Foto do Diploma do Ensino Médio</label>
-                   <input runat="server" type="file" class="custom-file-input" id="fotoEnsinoMedio" name="fotoEnsinoMedio" />
+                   <input runat="server" type="file" class="custom-file-input" id="fotoEnsinoMedio" name="fotoEnsinoMedio" required/>
                </div>
             </div>
         </div>
@@ -106,7 +106,7 @@ TagPrefix="asp" %>
             <div class="d-flex justify-content-center w-25">           
                <div class="custom-file">
                     <label class="custom-file-label">Inserir Foto do Diploma do Ensino Fundamental</label>
-                    <input runat="server" type="file" class="custom-file-input" id="fotoEnsinoFundamental" name="fotoEnsinoFundamental" />
+                    <input runat="server" type="file" class="custom-file-input" id="fotoEnsinoFundamental" name="fotoEnsinoFundamental" required/>
                </div>
             </div>
         </div>

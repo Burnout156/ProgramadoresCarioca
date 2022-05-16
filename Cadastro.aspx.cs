@@ -37,6 +37,8 @@ namespace ProgramadoresCarioca
             try
             {
                 cmd.ExecuteNonQuery();
+                string mensagem = "Cadastro realizado com sucesso, agora aguarde o e-mail para fazer a prova";
+                ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "showalert", "alert('"+ mensagem +"')", true);
             }
 
             catch (Exception error)
